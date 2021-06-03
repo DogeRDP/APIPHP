@@ -1,13 +1,13 @@
 <?php
     include('Net/SSH2.php');
 
-    $address = "localhost"; //Server IP (If same server use localhost)
+    $address = "162.55.126.5"; //Server IP (If same server use localhost)
 
     $serverPort = 22; //SSH port (Default 22)
     
     $user = "root"; //User for the server
     
-    $password = "rootpassword"; //Password for the server
+    $password = "kilmarnock13"; //Password for the server
     
     $Methods = array("NTP", "DNS", "HTTP", "stop"); //Array of methods
 
